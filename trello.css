@@ -1,0 +1,99 @@
+/* Upper Navbar Background Color */
+.navbar-custom {
+
+    background-color: #1676c0 !important;
+}
+
+/* setting Trello Logo position for small devices  */
+@media screen and (min-width: 800px) {
+    .navbar-brand11 {
+    position: absolute !important;
+    left: 50% !important;
+    margin-left: -2% !important;
+    display: block !important;
+}
+}
+
+/* Trello logo width */
+#logo{
+    width: 73px !important;
+
+}
+
+/* Notification background color */
+.red{
+    background-color: red;
+}
+
+/* to display icons in block */
+.width1{
+
+    display: block;
+}
+
+/* Items with #6bacdf color */
+#navItems{
+    background-color: #6bacdf;
+
+}
+
+/* Rotate search icon by 180 deg  */
+.image{
+    transform: rotateY(180deg);
+  }
+
+  /* Rotate info icon by 180 deg */
+  .rotate{
+    transform: rotateY(180deg);
+
+  }
+
+  /* Padding for boards logo */
+  .fab{
+      padding: 7px;
+  }
+
+  /* background color for body */
+body{
+    background-color: #208adb!important;
+}
+
+/* width of screenful logo */
+#logo1{
+  width:40px;
+}
+
+/* cards */
+.cards{
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    background:#eee;
+    
+    color:rgb(97, 92, 92);
+    
+}
+.color{
+    color: rgb(235, 227, 227);
+}
+.color1{
+    color:white
+}
+
+#form{
+    
+    margin-bottom: -4%;
+     padding: 10px; 
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    
+}
+.container{
+    display:block;
+  
+    grid-gap: 20px;
+}
+
+
